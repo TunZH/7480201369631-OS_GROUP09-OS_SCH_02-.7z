@@ -1,3 +1,4 @@
+// Gantt chart visualization module
 #include "gantt/gantt.h"
 #include <iostream>
 
