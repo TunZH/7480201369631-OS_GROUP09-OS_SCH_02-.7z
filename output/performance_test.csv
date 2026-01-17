@@ -1,0 +1,5 @@
+Algorithm,DataSize,Time_ms,Extra
+FCFS,10000,4,-
+Priority,10000,1116,-
+FIFO,100000,24,frames=10
+LRU,100000,28,frames=10
