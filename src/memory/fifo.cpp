@@ -1,3 +1,4 @@
+// FIFO page replacement algorithm
 #include "memory/fifo.h"
 #include <queue>
 #include <algorithm>
