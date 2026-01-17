@@ -1,3 +1,4 @@
+// FCFS scheduling implementation
 #include "cpu/fcfs.h"
 #include <algorithm>
 
