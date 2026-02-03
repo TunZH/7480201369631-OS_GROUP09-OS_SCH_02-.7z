@@ -129,7 +129,7 @@ These files can be opened using Excel to verify correctness and generate charts.
 ## 6. How to Build and Run (Windows)
 ### Compile
 ```bash
-g++ src/main.cpp src/cpu/*.cpp src/memory/*.cpp src/gantt/*.cpp src/utils/*.cpp -I./src -o build/app.exe
+g++ src/main.cpp src/cpu/fcfs.cpp src/cpu/priority.cpp src/memory/fifo.cpp src/memory/lru.cpp src/gantt/gantt.cpp src/test/stress_test.cpp src/utils/csv_reader.cpp src/utils/csv_writer.cpp -I./src -o build/app.exe
 Run
 Copy code
 ./build/app.exe
